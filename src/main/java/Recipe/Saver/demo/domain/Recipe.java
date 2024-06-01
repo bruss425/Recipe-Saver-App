@@ -32,4 +32,8 @@ public class Recipe {
     @ElementCollection // need to make sure this works as inteneded
     @Column(name = "ingredient")
     private List<String> ingredients;
+
+    public void setPhotoUrl(String photoUrl) {
+        this.imageUrl = photoUrl;
+    }
 }

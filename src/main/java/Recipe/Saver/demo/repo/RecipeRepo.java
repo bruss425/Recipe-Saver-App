@@ -10,7 +10,7 @@ import Recipe.Saver.demo.domain.Recipe;
 public interface RecipeRepo extends JpaRepository<Recipe, String> {
     Optional<Recipe> findById(String id);
     Optional<Recipe> findByName(String name);
-    Optional<Recipe> findByIngredient(String ingredient);
+   // Optional<Recipe> findByIngredient(String ingredient);
     Optional<Recipe> findByCategory(String category);
 
 }
