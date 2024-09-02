@@ -25,7 +25,7 @@ public class Recipe {
     private String id;
     private String name;
     private String description;
-    private String imageUrl;
+    private String photoUrl;
     private String category;
     private String rating;
 
@@ -34,6 +34,6 @@ public class Recipe {
     private List<String> ingredients;
 
     public void setPhotoUrl(String photoUrl) {
-        this.imageUrl = photoUrl;
+        this.photoUrl = photoUrl;
     }
 }
